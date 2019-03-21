@@ -1,26 +1,22 @@
 
-<<<<<<
+
 .jumbotron {
   font-family: 'Margarine';
   box-shadow: 12px 10px 16px rgb(111, 111, 116);
   text-align: center;
 }
 
-h1 {
-  
-}
 
 .jumbotron {
   font-family: 'Margarine';
   box-shadow: 12px 10px 16px rgb(124, 124, 133);
-  opacity: 0.7;
-  /* text-align: center; */
-    
+  opacity: 0.7;   
 }
 
 body {
   background-image: url(https://images.unsplash.com/photo-1519682337058-a94d519337bc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
-  background-size: cover
+  background-size: cover;
+  padding-top: 15px;
 }
 
 .display-4, .lead {
