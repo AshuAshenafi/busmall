@@ -21,7 +21,7 @@ body{
 .ptag{
   padding-top: 10px;
   font-size: 4em; 
-  font-family: 'Unkempt', cursive;
+  font-family: 'Margarine', cursive;
 }
 
 
@@ -36,14 +36,14 @@ body{
   -ms-transform: scale(1.16);
 }
 
-.btn-success {
+/* .btn-success {
 font-family: 'Unica One';
 float: right;
 font-style: normal
-}
+} */
 
 .btn-primary {
 font-family: 'Unica One';
-float: left;
+float: center;
 font-style: normal
 }
