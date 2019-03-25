@@ -4,11 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>BusMall Survey</title>
+  <title>BusMall Catalogs</title>
   <link rel="stylesheet" href="./select.css">
   <link href="https://fonts.googleapis.com/css?family=Sarina|Unkempt" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Margarine" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Unica+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     
 </head>
@@ -16,22 +17,22 @@
 <body>
     <div class="container">
         <div class="jumbotron">
-            <h1<i class="fas fa-camera-retro"><i/>Which image <strong>"SPARKS JOY"?</strong></h1>
+            <h1<i class="fas fa-camera-retro"><i/><strong>BusMall</strong> Consumer Analytics</h1>
             <div class="ptag">
-                  <p class="ptag"><strong>CLICK</strong> on your favorite image below</p>
+                  <p class="ptag"><strong>Select</strong> the item below that interest you the most:</p>
             </div>
         </div>  
                 
         
-        <div class="row">
+        <div class="imageRow">
             <div class="col-lg-4 col-sm-6">
               <div class="thumbnail">
-                <img src="./assets/disguise.jpg">
+                <img src="./assets/sports_soccer_three_adj.jpg">
               </div>	
             </div>
             <div class="col-lg-4 col-sm-6">
               <div class="thumbnail">
-                <img src="./assets/PolaroidSnap.jpg"> 
+                <img src="./assets/sports_retro_two_adj.jpg"> 
               </div>	
             </div>
             <div class="col-lg-4 col-sm-6">
@@ -39,10 +40,21 @@
                 <img src="./assets/Typewriter2.jpg">
               </div>	
             </div>
-        </div>
-        <a class="btn btn-primary" href="#" type="submit">RELOAD</a>
-        
+        </div>    
     </div>
+
+    <div class="instruct">
+      <h2><u>INSTRUCTIONS</u></h2>
+      
+      <ul>
+        <li>Please select one image at a time; Images are shuffled after each selection. Continue selecting until the select-counter receives 25 selections</li>
+      </ul>  
+      <h3>BusMall Analytics thanks you for your time and your participation</h3>
+    </div>
+    
+   
+    <!-- <button onclick="reload()">RELOAD</button> -->
+    <a class="btn btn-primary" href="#" type="submit">RELOAD</a>
       
 
   <script src="./busmall.js"></script>
